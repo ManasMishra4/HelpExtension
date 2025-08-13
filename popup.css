@@ -1,0 +1,99 @@
+/* Set global styles */
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  /* Use a larger minimum width to fill more space */
+  min-width: 400px;
+}
+
+/* Style .container class */
+.container {
+  width: fit-content; /* Use a percentage to be more responsive */
+  max-width: none;
+  margin: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Style h1 and p elements */
+h1, p {
+  font-size: 1.8em; /* Increase font size */
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Style textarea elements */
+textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ddd;
+  padding: 15px; /* Increase padding */
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 1.2em; /* Increase font size for readability */
+}
+
+/* Style submit button */
+#submit-button {
+  display: block;
+  width: 100%;
+  padding: 15px 20px; /* Increase padding */
+  border: none; /* Make button borderless */
+  border-radius: 8px;
+  color: white;
+  background-color: #4CAF50;
+  text-align: center;
+  font-size: 1.2em; /* Increase font size */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+#submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Updated hints container styling */
+#response-container {
+  padding: 15px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 1.1em; /* Increase font size */
+  line-height: 1.6;
+}
+
+/* Style list items for better spacing */
+#response-container ul {
+  list-style-type: none; /* Removes the default bullets */
+  padding: 0; /* This removes the left padding on the list */
+  margin: 0;
+}
+#response-container li {
+  margin-bottom: 10px;
+  /* This ensures the list items are completely flush with the left side. */
+  padding-left: 0;
+}
+/* #response-container li::before {
+  content: "•";
+  color: #4CAF50;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 0;
+} */
+
+/* Style for loading indicator */
+#loading {
+  text-align: left;
+  font-size: 1.2em;
+  color: #666;
+  padding: 10px;
+  padding-left: 0%;
+}
+/* Hide the loading indicator by default */
+.hidden {
+  display: none;
+}

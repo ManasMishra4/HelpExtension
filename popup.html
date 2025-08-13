@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="popup.css">
+ <title>Code Helper AI</title>
+</head>
+<body>
+ <div class="container">
+   <h1>Code Helper AI</h1>
+   <p>Paste your question and code below to get hints.</p>
+   <textarea id="question-input" placeholder="Your question"></textarea>
+   <br>
+   <textarea id="code-input" placeholder="Your code"></textarea>
+   <br>
+   <button id="submit-button">Get Hints</button>
+   <div id="loading" class="hidden">Thinking...</div>
+   <div id="response-container"></div>
+ </div>
+ <script src="popup.js"></script>
+</body>
+</html>
